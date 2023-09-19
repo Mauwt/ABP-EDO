@@ -42,88 +42,80 @@ Este paper propone investigar la relación entre el crecimiento económico y el 
     Ecuaciones diferenciales, Crecimiento económico, Modelo Solow-Swan, Modelo Romer, Cremiento Exogeno
 \end{flushright}
 
+\section*{Objetivos}
+
+\begin{itemize}
+  \item Analizar el Impacto del Cambio Tecnológico en el Crecimiento Económico
+
+  \item Modelar la Dinámica del Crecimiento Económico mediante Ecuaciones Diferenciales
+\end{itemize}
+
+\section{Introducción}
+
+El crecimiento económico es un tema fundamental en la economía que se ha estudiado durante décadas. El crecimiento económico se define como el aumento de la producción de bienes y servicios en una economía en un período de tiempo determinado. La mayoría de los economistas están de acuerdo en que el crecimiento económico es un factor fundamental para mejorar el bienestar de la sociedad, ya que permite a las personas consumir más bienes y servicios. \cite{Moret09} El crecimiento económico se mide mediante el Producto Interno Bruto (PIB) y el Producto Interno Bruto per cápita (PIB per cápita), que es el PIB dividido por la población total. El PIB per cápita se utiliza para comparar el nivel de vida entre diferentes países. El crecimiento económico se puede lograr aumentando la cantidad de factores de producción, como la fuerza laboral y el capital físico, y mejorando la eficiencia de los factores de producción, como el progreso tecnológico. \cite{Moret09}
+
+%% TO-DO
 
 
 \section{Marco Teorico}
   Para comprender este documento es necesario comprender los conceptos clave y los modelos fundamentales que se utilizarán como base para el análisis. A continuación, se definen de manera sencilla los conceptos y modelos clave:
 
+
+  
 \begin{enumerate}
 
   
-  \item Crecimiento Económico: El crecimiento económico es un objetivo central en la economía y se refiere al aumento sostenido de la producción de bienes y servicios en una economía a lo largo del tiempo. Este proceso conduce a un mayor nivel de vida y desarrollo económico de una sociedad. Para entender el crecimiento económico, es crucial analizar las fuentes que lo impulsan, en particular, la acumulación de capital y el cambio tecnológico.
-
-  \item Cambio Tecnológico: El cambio tecnológico se refiere a la mejora y avance de los métodos y procesos de producción, así como a la creación de nuevos productos y tecnologías. Este factor desempeña un papel esencial en el crecimiento económico, ya que puede aumentar la productividad, mejorar la eficiencia y fomentar la innovación en una economía.
-
+  \item \textbf{Crecimiento Económico}: El crecimiento económico segun lo define Patricia Castillo Marin \cite{Eco11}:
   
-  \item Modelos de Crecimiento Económico: Para analizar la relación entre el crecimiento económico y el cambio tecnológico, se utilizarán dos modelos fundamentales: el Modelo Solow-Swan y el Modelo Romer.
+    \begin{quote}
+      \text{" [...]} \textit{ se define como el proceso en virtud del cual la renta real per cápita de un país aumenta durante un largo período de tiempo. En otros términos, el desarrollo es un proceso integral, socioeconómico, que implica la expansión continua del potencial económico}
+    \end{quote}
+    Para entender el crecimiento económico, es crucial analizar las fuentes que lo impulsan, en particular, la acumulación de capital y el cambio tecnológico.
+
+  \item \textbf{Cambio Tecnológico}: El cambio tecnológico se refiere a la mejora y avance de los métodos y procesos de producción, así como a la creación de nuevos productos y tecnologías. Este factor es fundamental para los modelos de crecimiento exógeno como el de Solow-Swan\cite{Chirwa18}.
+  
+  \item \textbf{Modelos de Crecimiento Económico}: Para analizar el crecimiento económico respecto a variables principalmente economicas y policitas hay dos modelos que han tenido una mayor extensión en el ambito academico: el Modelo Solow-Swan y su predecesor, el Modelo Romer.
   
   \begin{itemize}
      
-    \item Modelo Solow-Swan: Este modelo, propuesto por Robert Solow y Trevor Swan en la década de 1950, se basa en la acumulación de capital físico, el crecimiento de la fuerza laboral y el progreso tecnológico como motores del crecimiento económico. En este enfoque, la tecnología se considera exógena, lo que significa que no se modifica internamente en la economía, sino que se toma como un factor dado.
+    \item \textbf{Modelo Solow-Swan}: Este modelo, propuesto por Robert Solow y Trevor Swan en la década de 1950, se basa en la acumulación de capital físico, el crecimiento de la fuerza laboral y el progreso tecnológico como motores del crecimiento económico.\cite{Martin11} 
+    En este enfoque, la tecnología se considera exógena, lo que significa que no se modifica internamente en la economía, sino que se toma como un factor dado. Otra interpretación del desarrollo tecnologico como factor exógeno, segun Chirwa \cite{Chirwa18} es que el desarrollo tecnologico es el factor de mayor importancia en el crecimiento economico a largo plazo.
   
-    \item Modelo Romer: El Modelo Romer, desarrollado por Paul Romer en la década de 1980, introduce el concepto de crecimiento endógeno. En contraste con el Modelo Solow-Swan, sugiere que el progreso tecnológico es influenciado por las acciones de las empresas que buscan obtener ganancias a través de la investigación y el desarrollo (I+D). Este modelo considera que el conocimiento y la tecnología pueden ser impulsados por políticas gubernamentales y la inversión en I+D.
+    \item \textbf{Modelo Romer}: El Modelo Romer, desarrollado por Paul Romer en la década de 1980, introduce el concepto de crecimiento endógeno. En contraste con el Modelo Solow-Swan, sugiere que el progreso tecnológico es influenciado por las acciones de las empresas que buscan obtener ganancias a través de la investigación y el desarrollo (I+D)\cite{Casparri13} . Este modelo considera que el conocimiento y la tecnología pueden ser impulsados por políticas gubernamentales y la inversión en I+D.
   
   \end{itemize}
+
+  \item \textbf{Ecuaciones Diferenciales en Economía}: Las ecuaciones diferenciales son herramientas matemáticas ampliamente utilizadas en la economía para modelar y analizar sistemas dinámicos en los que las variables cambian con respecto al tiempo. Estas ecuaciones permiten describir cómo evolucionan ciertas magnitudes económicas en función de diversas variables, lo que resulta esencial en la comprensión de fenómenos económicos complejos.
+
 \end{enumerate}
 
+\section{Modelo Matematico}
 
-\section{Main Text}
+Acontinuación se presenta ambos modelos matematicos en su forma de ecuaciones diferenciales, así como una breve explicación de cada una de ellas, junto con sus variables y parametros de los que dependen.
 
-\subsection{Required Elements}
-All PDF submissions must contain the following items in order to be published:
+\subsection{Modelo Solow-Swan}
 
-\begin{enumerate}
-\item Complete title
-\item Complete listing of all authors and their affiliations
-\item Self-contained abstract (indexers such as Google Scholar will not index papers that do not contain abstracts)
-\item Appropriate copyright statement following the abstract. By default, the copyright statement will appear as \number\year \hskip.05in The Author(s). If needed, the default statement can be suppressed by use of the \verb+{abstract*}+ environment.
-\item Permission and attribution for any trademarked or copyright images. Note that images of people or images owned or trademarked by other entities (including well-known logo's or cartoon characters for example) will also require official written permission.
-\item Two-page limit unless designated otherwise on conference website
-\end{enumerate}
+El modelo Solow-Swan se basa en la acumulación de capital físico y tecnología exógena, sugiere que el aumento de productividad solo se explica a través de inversiones directas, crecimiento poblacional y el progreso tecnológico.\cite{Chirwa18} El modelo Solow-Swan se puede representar mediante la siguiente ecuación diferencial:
 
-\subsection{Typographical Style}
-Margins and type size will be set by the Optica \LaTeX{}
-commands for title, author names and addresses, abstract,
-references, captions, and so on. The \texttt{opticameet3.sty} package
-references \texttt{mathptmx.sty} for Times text and math fonts.
-Authors who require Computer Modern font may modify the style file
-or, preferably, invoke the package \texttt{ae.sty} or similar for
-optimum output with Computer Modern.
+\begin{equation}
+  \frac{dK}{dt} = sY - \delta K
+\end{equation}
 
+Donde:
 
-\subsection{Author Names and Affiliations}
-Author names should be given in full with first initials spelled out to assist with indexing.
-Affiliations should follow the format division, organization, and address---and complete postal information should be given.
-Abbreviations should not be used. United States addresses should end
-with ``, USA.''
+\begin{itemize}
+  \item $K$ es el capital físico
+  \item $Y$ es el producto
+  \item $s$ es la tasa de ahorro
+  \item $\delta$ es la tasa de depreciación
+  
+\end{itemize}
 
-\subsection{Abstract} The abstract
-should be limited to no more than 35 words. It should be an
-explicit summary of the paper that states the problem, the methods
-used, and the major results and conclusions. If another publication author is referenced in the abstract, abbreviated information
-(e.g., journal, volume number, first page, year) must be
-given in the abstract itself, without a reference number. (The item referenced in the abstract should be the first
-cited reference  in the body.)
+\subsection{Modelo Romer}
 
-\subsection{Notation}
-\subsubsection{General Notation}
-Notation must be
-legible, clear, compact, and consistent with standard usage. In
-general, acronyms should be defined at first use.
+El Modelo Romer, desarrollado por Paul Romer en la década de 1980, introduce el concepto de crecimiento endógeno. En contraste con el Modelo Solow-Swan, sugiere que el progreso tecnológico es influenciado por las acciones de las empresas que buscan obtener ganancias a través de la investigación y el desarrollo (I+D)\cite{Casparri13} . Este modelo considera que el conocimiento y la tecnología pueden ser impulsados por políticas gubernamentales y la inversión en I+D. El modelo Romer se puede representar mediante la siguiente ecuación diferencial:
 
 
-\subsubsection{Math Notation}
-Equations should use standard \LaTeX{} or AMS\LaTeX{} commands (sample from Krishnan \textit{et al.} \cite{Chirwa18}).
-
-\begin{eqnarray}
-\bar\varepsilon &=& \frac{\int_0?\infty\varepsilon
-\exp(-\beta\varepsilon)\,{\rm d}\varepsilon}{\int_0?\infty
-\exp(-\beta\varepsilon)\,{\rm d}\varepsilon}\nonumber\\
-&=& -\frac{{\rm d}}{{\rm d}\beta}\log\Biggl[\int_0?\infty\exp
-(-\beta\varepsilon)\,{\rm d}\varepsilon\Biggr]=\frac1\beta=kT.
-\end{eqnarray}
-
-\section{Tables and Figures}
 Figures and illustrations should be incorporated directly into the
 manuscript, and the size of a figure should be commensurate with the amount
 and value of the information conveyed by the figure.
@@ -154,9 +146,11 @@ are mentioned in the text. No part of a figure should extend beyond text width, 
 \section{References}
 References should be cited with the \verb+\cite{}+ command.
 Bracketed citation style, as opposed to superscript, is preferred
-\cite{Chirwa18,Chu18,masters93,shoop97,kalman76,craig96,steup96}.
+\cite{Chirwa18,Chu18,masters93, , , , }.
 The \texttt{opticameet3.sty} style file references \texttt{cite.sty}. Comprehensive journal abbreviations are available on the Crossref web site:
 \href{http://www.crossref.org/titleList/}{http://www.crossref.org/titleList/}.
+
+
 
 \begin{thebibliography}{99} %% use BibTeX or add references manually
 
@@ -167,21 +161,12 @@ The \texttt{opticameet3.sty} style file references \texttt{cite.sty}. Comprehens
 
 \bibitem{Chu18}Chu, A. C. (2018). From Solow to Romer: Teaching endogenous technological change in undergraduate economics. International Review of Economics Education, 27, 10-15.
 
+\bibitem{Eco11}Económico, D. E. S. A. R. R. O. L. L. O. (2011). Política económica: crecimiento económico, desarrollo económico, desarrollo sostenible. Revista internacional del mundo económico y del derecho, 3, 1-12.
 
-\bibitem{masters93} T. Masters, \emph{Practical Neural Network Recipes in C++} (Academic, 1993).
+\bibitem{Moret09} Morettini, M. (2009). El modelo de crecimiento de Solow.
 
-\bibitem{shoop97} B. L. Shoop, A. H. Sayles, and D. M. Litynski, ``New devices for optoelectronics: smart pixels,''
-in \emph{Handbook of Fiber Optic Data Communications},
-C. DeCusatis, D. Clement, E. Maass, and R. Lasky, eds. (Academic, 1997), pp. 705--758.
-
-\bibitem{kalman76} R. E. Kalman,``Algebraic aspects of the generalized inverse of a rectangular matrix,'' in
-\emph{Proceedings of Advanced Seminar on Generalized Inverse and Applications}, M. Z. Nashed, ed. (Academic, 1976), pp. 111--124.
-
-\bibitem{craig96} R. Craig and B. Gignac, ``High-power 980-nm pump lasers,''
-in \emph{Optical Fiber Communication Conference}, Vol. 2 of 1996 OSA Technical Digest Series (Optical Society of America, 1996), paper ThG1.
-
-\bibitem{steup96} D. Steup and J. Weinzierl, ``Resonant THz-meshes,''
-presented at the Fourth International Workshop on THz Electronics, Erlangen-Tennenlohe, Germany, 5--6 Sept. 1996.
+\bibitem{Martin11} Martín, M. Á. G. (2011). Crecimiento económico. ICE, Revista de Economía, (858).
+\bibitem{Casparri13} Casparri, M. T. (2013). Un modelo dinámico de crecimiento endógeno (Doctoral dissertation, Facultad de Ciencias Económicas. Universidad de Buenos Aires).
 
 \end{thebibliography}
 
