@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1695155017 "c:/Users/razor/OneDrive/Escritorio/UTEC/Ciclo 3/EDO/ABP/ABP.tex" "ABP.pdf" "ABP" 1695155020 0
-  "ABP.aux" 1695155019 2432 52994392c311c580fa92128f868edc20 "pdflatex"
+["pdflatex"] 1695156473 "c:/Users/razor/OneDrive/Escritorio/UTEC/Ciclo 3/EDO/ABP/ABP.tex" "ABP.pdf" "ABP" 1695156477 0
+  "ABP.aux" 1695156476 2432 52994392c311c580fa92128f868edc20 "pdflatex"
   "C:/Users/razor/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1695141401 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/razor/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1695141407 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/razor/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1695141288 23178960 080e2c51fdfbcfc385d01f8bfc96ebb4 ""
@@ -108,10 +108,8 @@
   "C:/Users/razor/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/razor/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/razor/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/razor/OneDrive/Escritorio/UTEC/Ciclo 3/EDO/ABP/ABP.tex" 1695155015 11418 69f50160a18a95328a71d21dacc9bf2b ""
-  "jabbrv-ltwa-all.ldf" 1695141195 70245 8a7dcab6916ed8554ca140f23f3252e1 ""
-  "jabbrv-ltwa-en.ldf" 1695141169 468096 4ce0fafcb1a570bee530b1f1de01df3e ""
-  "jabbrv.sty" 1695144803 19698 006572e4181203451ec1e4952ac561dc ""
+  "c:/Users/razor/OneDrive/Escritorio/UTEC/Ciclo 3/EDO/ABP/ABP.tex" 1695156469 10909 674dcfa52145d129021d85e6ce46a940 ""
+  "jabbrv.sty" 1695156372 19705 7b145f44e3e47396e13b4059ece8c732 ""
   "opticameet3.sty" 1695144787 8386 254d65c385c3230facc030c96e69cea1 ""
   (generated)
   "ABP.aux"
